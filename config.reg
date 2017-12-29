@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\myuri]
+@="URL:MyTestURI Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\myuri\DefaultIcon]
+@="myuri.exe,1"
+
+[HKEY_CLASSES_ROOT\myuri\shell]
+
+[HKEY_CLASSES_ROOT\myuri\shell\open]
+
+[HKEY_CLASSES_ROOT\myuri\shell\open\command]
+@="\"D:\\exe\\myuri.exe\" \"%1\""
